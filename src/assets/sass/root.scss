@@ -8,8 +8,8 @@
 @media only screen and (min-width: 0rem) {
     // Website colors
     :root {
-        --primary: #ffba19;
-        --primaryLight: #ffd675;
+        --primary: #ff0808;
+        --primaryLight: #ec4040;
         --secondary: #001f3f;
         --secondaryLight: #001f3f;
         --headerColor: #1a1a1a;
@@ -65,7 +65,6 @@
         z-index: 1;
         position: relative;
         display: inline-block;
-        background-color: var(--primary);
         width: auto;
         padding: 0 calc(30 / 16 * 1rem);
         text-decoration: none;
@@ -73,7 +72,7 @@
         font-size: calc(16 / 16 * 1rem);
         line-height: calc(50 / 16 * 1em);
         font-weight: bold;
-
+        border: 1px solid rgb(255, 255, 255);
         // Transition Properties
         color: #000;
         transition: color 0.3s;
@@ -95,7 +94,6 @@
             content: "";
             opacity: 1;
             display: block;
-            background-color: #000;
             height: 100%;
 
             //Transition properties
