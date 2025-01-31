@@ -62,13 +62,13 @@
     line-height: 3.125em;
     font-weight: bold;
     border: 1px solid rgb(255, 255, 255);
-    color: #000;
+    color: #020202;
     transition: color 0.3s;
     transition-delay: 0.1s;
     text-align: center;
   }
   .cs-button-solid:hover {
-    color: #fff;
+    color: #b02828;
   }
   .cs-button-solid:hover:before {
     width: 100%;
